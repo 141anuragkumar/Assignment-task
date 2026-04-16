@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.navbar {
+  background: #000;
+}
+
+.card {
+  background: #1c1c2e;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(0,255,255,0.4);
+}
+
+.card img {
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+}
